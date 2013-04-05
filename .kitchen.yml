@@ -18,11 +18,11 @@ suites:
   - recipe[sqldeveloper]
   attributes:
     java:
-      jdk_version: '6'
-      install_flavor: 'oracle'
+      jdk_version: 6
+      install_flavor: oracle
       jdk:
         '6':
           x86_64:
-            url: 'http://10.99.89.15/jdk-6u41-linux-x64.bin'
+            url: http://10.99.89.15/jdk-6u41-linux-x64.bin
     sqldeveloper:
-      url: "http://10.99.89.15/sqldeveloper-3.2.20.09.87-no-jre.zip   "
+      url: http://10.99.89.15/sqldeveloper-3.2.20.09.87-no-jre.zip
